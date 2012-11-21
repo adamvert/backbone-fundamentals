@@ -745,7 +745,7 @@ var Todo = Backbone.Model.extend({
   initialize: function(){
     console.log('This model has been initialized.');
     this.on('change:title', function(){
-        console.log('Title value for this model have changed.');
+        console.log('Title value for this model has changed.');
     });
   },
   setTitle: function(newTitle){
